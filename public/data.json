@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -6,7 +7,8 @@
     "badge": "Popular",
     "category": "Frontend",
     "level": "Beginner-Friendly",
-    "rating": 4.9
+    "rating": 4.9,
+    "img": "https://devicons.io/devicons/icons/react.svg"
   },
   {
     "id": 2,
@@ -15,7 +17,8 @@
     "badge": "Versatile",
     "category": "Frontend",
     "level": "Beginner-Friendly",
-    "rating": 4.8
+    "rating": 4.8,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hsKhA6NKy11wsNRsI06BFh7lR5HR6o_yEGW3r2LI1g&s=10"
   },
   {
     "id": 3,
@@ -24,16 +27,18 @@
     "badge": "Fast",
     "category": "Frontend",
     "level": "Intermediate",
-    "rating": 4.8
+    "rating": 4.8,
+    "img": "https://devicons.io/devicons/icons/svelte.svg"
   },
   {
     "id": 4,
     "title": "Next.js",
     "description": "The React framework for full-stack web applications with hybrid static & server rendering.",
-    "badge": null,
+    "badge": "Framework",
     "category": "Frontend",
     "level": "Intermediate",
-    "rating": 4.9
+    "rating": 4.9,
+    "img": "https://devicons.io/devicons/icons/nextjs.svg"
   },
   {
     "id": 5,
@@ -42,7 +47,8 @@
     "badge": "Standard",
     "category": "Backend",
     "level": "Intermediate",
-    "rating": 4.8
+    "rating": 4.8,
+    "img": "https://devicons.io/devicons/icons/nodejs.svg"
   },
   {
     "id": 6,
@@ -51,7 +57,8 @@
     "badge": "Top SQL",
     "category": "Database",
     "level": "Intermediate",
-    "rating": 4.9
+    "rating": 4.9,
+    "img": "https://devicons.io/devicons/icons/postgresql.svg"
   },
   {
     "id": 7,
@@ -60,7 +67,8 @@
     "badge": "Cache",
     "category": "Database",
     "level": "Intermediate",
-    "rating": 4.8
+    "rating": 4.8,
+    "img": "https://devicons.io/devicons/icons/redis.svg"
   },
   {
     "id": 8,
@@ -69,7 +77,8 @@
     "badge": "Ubiquitous",
     "category": "Language",
     "level": "Beginner-Friendly",
-    "rating": 4.9
+    "rating": 4.9,
+    "img": "https://devicons.io/devicons/icons/javascript.svg"
   },
   {
     "id": 9,
@@ -78,7 +87,8 @@
     "badge": "Essential",
     "category": "Language",
     "level": "Intermediate",
-    "rating": 4.9
+    "rating": 4.9,
+    "img": "https://devicons.io/devicons/icons/typescript.svg"
   },
   {
     "id": 10,
@@ -87,7 +97,8 @@
     "badge": "Robust",
     "category": "Language",
     "level": "Intermediate",
-    "rating": 4.6
+    "rating": 4.6,
+    "img": "https://devicons.io/devicons/icons/java.svg"
   },
   {
     "id": 11,
@@ -96,7 +107,8 @@
     "badge": "Modern",
     "category": "Styling",
     "level": "Beginner-Friendly",
-    "rating": 4.9
+    "rating": 4.9,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShIdpmAM4l6ifTIFwCPjaMBsFJnY6otNl5FFbW2RpLmHh9APqc4-tZ23Y&s=10"
   },
   {
     "id": 12,
@@ -105,6 +117,7 @@
     "badge": "Containers",
     "category": "DevOps",
     "level": "Intermediate",
-    "rating": 4.9
+    "rating": 4.9,
+    "img": "https://devicons.io/devicons/icons/docker.svg"
   }
 ]

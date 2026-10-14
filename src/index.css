@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+li {
+  list-style-type: none;
+}

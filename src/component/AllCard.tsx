@@ -31,7 +31,7 @@ export const AllCard = ({infos,stackAdd}: CardProps) => {
     <h2 className="card-title">Your Stack</h2>
     <p>No teachnologies selected</p>
     <div className="justify-center ">
-      <p>Your Stack Is Empty</p>
+     <p>{stackAdd.length === 0 ? "Your Stack Is Empty" : stackAdd.length}</p>
     </div>
   </div>
 </div>

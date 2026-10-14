@@ -4,10 +4,10 @@ import type { Info } from "./type";
 
 const MainPart = ({dataPromise}: {dataPromise:Promise<Info[]>}) => {
     const infos = use(dataPromise)
-    const [stackAdd, setStackAdd]=useState([]);
+    const [stackAdd, setStackAdd]=useState([1]);
     return (
         <div>
-            <AllCard infos={infos} stackAdd={stackAdd}/>
+            <AllCard infos={infos} stackAdd={stackAdd} setStackAdd={setStackAdd} />
             
         </div>
     );

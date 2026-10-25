@@ -1,15 +1,12 @@
-import type React from "react";
+
 import Card from "./Card";
-import type { Info } from "./type";
-interface CardProps {
-  infos: Info[];
-  stackAdd: string[]
-  setStackAdd: React.Dispatch<React.SetStateAction<string[]>>;
-}
 
 
-export const AllCard = ({infos,stackAdd}: CardProps) => {
-    console.log(stackAdd);
+
+
+
+export const AllCard = ({ infos, stackAdd, setStackAdd }) => {
+    // console.log(stackAdd);
     return (
   <div className=" container mx-auto my-2 grid grid-cols-16 gap-6">
 
@@ -18,7 +15,10 @@ export const AllCard = ({infos,stackAdd}: CardProps) => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {infos.map((info) => (
           <div key={info.id}>
-            <Card item={info} onAdd={() => {}} />
+            
+<Card item={info} onAdd={() => { setStackAdd([...stackAdd, info]);}}/>
+
+
           </div>
         ))}
       </div>

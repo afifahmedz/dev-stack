@@ -19,7 +19,7 @@ function App() {
    <Banner/>
    <TextBeneathBanner/>
    <Suspense fallback={<p>Loading..............</p>}>
-          <MainPart dataPromise={dataPromise()}></MainPart>
+   <MainPart dataPromise={dataPromise()}></MainPart>
    </Suspense>
    <Toaster/>
    <Footer/>
